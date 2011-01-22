@@ -1,4 +1,5 @@
 alias ll='ls -l'
+alias llh='ls -al'
 alias ..='cd ..'
 alias reload='source ~/.bash_profile'
 alias ea='vim ~/dotfiles/bash/aliases && reload'
