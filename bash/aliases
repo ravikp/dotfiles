@@ -11,6 +11,10 @@ alias gl='git log'
 alias gpr='git pull --rebase'
 alias gd='git diff'
 
+function gg {
+ git commit -v -a -m "$*"
+}
+
 
 function take {
 mkdir $1 
