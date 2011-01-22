@@ -5,3 +5,9 @@ alias gs='git status'
 alias gpu='git push'
 alias gpl='git pull'
 alias gl='git log'
+
+
+function take {
+mkdir $1 
+cd $1
+}
