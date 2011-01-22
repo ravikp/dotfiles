@@ -1,0 +1,7 @@
+alias ll='ls -l'
+
+
+alias gs='git status'
+alias gpu='git push'
+alias gpl='git pull'
+alias gl='git log'
