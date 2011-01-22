@@ -1,4 +1,5 @@
 alias ll='ls -l'
+alias ..='cd ..'
 
 
 alias gs='git status'
