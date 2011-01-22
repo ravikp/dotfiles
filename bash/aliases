@@ -1,11 +1,15 @@
 alias ll='ls -l'
 alias ..='cd ..'
+alias reload='source ~/.bash_profile'
+alias ea='vim ~/dotfiles/bash/aliases && reload'
 
 
 alias gs='git status'
 alias gpu='git push'
 alias gpl='git pull'
 alias gl='git log'
+alias gpr='git pull --rebase'
+alias gd='git diff'
 
 
 function take {
