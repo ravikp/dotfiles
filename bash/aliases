@@ -4,6 +4,8 @@ alias ..='cd ..'
 alias reload='source ~/.bash_profile'
 alias ea='vim ~/dotfiles/bash/aliases && reload'
 alias cls='clear'
+alias vim='vim -N'
+alias vi='vim -N'
 
 
 alias gs='git status'
