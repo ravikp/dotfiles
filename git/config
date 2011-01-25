@@ -3,3 +3,7 @@
 	status=auto
 	log=auto
 	interactive=auto
+[alias]
+	co = checkout
+	com = commit
+	br = branch
