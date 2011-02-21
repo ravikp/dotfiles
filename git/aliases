@@ -1,0 +1,13 @@
+alias gs='git status'
+alias gpu='git push'
+alias gpl='git pull'
+alias gl='git log'
+alias gpr='git pull --rebase'
+alias gd='git diff'
+alias gco='git checkout'
+alias gsr='git svn rebase'
+alias gsd='git svn dcommit'
+
+function gg {
+ git commit -v -a -m "$*"
+}
