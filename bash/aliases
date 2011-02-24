@@ -1,13 +1,11 @@
 alias ll='ls -l'
 alias llh='ls -al'
 alias ..='cd ..'
-alias reload='source ~/.bash_profile'
-alias ea='vim ~/dotfiles/bash/aliases && reload'
+alias re='source ~/.bash_profile'
+alias ea='vim ~/dotfiles/bash/aliases && re'
 alias cls='clear'
 alias vim='vim -N'
 alias vi='vim -N'
-
-
 
 
 function take {
