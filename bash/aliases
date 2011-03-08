@@ -1,5 +1,7 @@
 alias ll='ls -l'
 alias llh='ls -al'
+alias ld='ll | grep ^d'
+alias lf='ll | grep ^-'
 alias ..='cd ..'
 alias re='source ~/.bash_profile'
 alias ea='vim ~/dotfiles/bash/aliases && re'

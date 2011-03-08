@@ -5,3 +5,5 @@
 . ~/dotfiles/ruby/aliases
 
 . ~/dotfiles/git/aliases
+
+. ~/dotfiles/windows/microsoft/dotnet/aliases
