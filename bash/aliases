@@ -8,7 +8,7 @@ alias ea='vim ~/dotfiles/bash/aliases && re'
 alias cls='clear'
 alias vim='vim -N'
 alias vi='vim -N'
-
+alias e='exit'
 
 function take {
 mkdir -p $1 
