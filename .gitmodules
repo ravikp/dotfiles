@@ -1,3 +1,0 @@
-[submodule "dirb"]
-	path = dirb
-	url = git://github.com/icy/dirb.git
