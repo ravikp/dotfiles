@@ -5,3 +5,4 @@ export dotfiles=~/dotfiles
 . $dotfiles/ruby/aliases
 . $dotfiles/git/aliases
 . $dotfiles/windows/microsoft/dotnet/aliases
+. $dotfiles/dirb/dirb.sh
