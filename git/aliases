@@ -12,5 +12,5 @@ alias gsd='git svn dcommit'
 alias grc='git rebase --continue'
 
 function gg {
- git commit -v -a -m "$*"
+ git commit -v -m "$*"
 }
