@@ -6,6 +6,7 @@ alias gpr='git pull --rebase'
 alias gd='git diff'
 alias gco='git checkout'
 alias gcp='git cherry-pick'
+alias gra='git rebase --abort'
 
 alias gsr='git svn rebase'
 alias gsd='git svn dcommit'
