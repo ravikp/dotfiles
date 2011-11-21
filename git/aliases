@@ -8,6 +8,7 @@ alias gco='git checkout'
 alias gcp='git cherry-pick'
 alias gra='git rebase --abort'
 alias grc='git rebase --continue'
+alias gcv='git cherry -v'
 
 alias gsr='git svn rebase'
 alias gsd='git svn dcommit'
