@@ -7,7 +7,7 @@ export dotfiles=~/.dotfiles
 . $dotfiles/git/aliases
 . $dotfiles/dirb/dirb.sh
 
-if [`echo -n $OSTYPE` == 'msys']; then
+if [ "msys" = "$OSTYPE" ]; then
 	. $dotfiles/windows/microsoft/dotnet/aliases
 	. $dotfiles/windows/microsoft/system/aliases
 fi
