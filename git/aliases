@@ -1,4 +1,5 @@
 alias gs='git status'
+alias gai='git add -i'
 alias gpu='git push'
 alias gpl='git pull'
 alias gl='git log'

@@ -5,6 +5,8 @@ export dotfiles=~/.dotfiles
 . $dotfiles/bash/aliases
 . $dotfiles/ruby/aliases
 . $dotfiles/git/aliases
+. $dotfiles/guard/aliases
+
 . $dotfiles/dirb/dirb.sh
 
 if [ "darwin11" = "$OSTYPE" ]; then
