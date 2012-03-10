@@ -7,7 +7,10 @@ export dotfiles=~/.dotfiles
 . $dotfiles/git/aliases
 . $dotfiles/dirb/dirb.sh
 
-if [ "msys" = "$OSTYPE" ]; then
+if [ "darwin11" = "$OSTYPE" ]; then
+	. $dotfiles/textmate/aliases
+	. $dotfiles/mongodb/aliases
+elif [ "msys" = "$OSTYPE" ]; then
 	. $dotfiles/windows/microsoft/dotnet/aliases
 	. $dotfiles/windows/microsoft/system/aliases
 fi
