@@ -19,6 +19,8 @@ alias gsd='git svn dcommit'
 alias grc='git rebase --continue'
 alias git-new-work-dir='~/dotfiles/git/contrib/git-new-working-dir'
 
+alias ggui='git gui &'
+
 function gg {
  git commit -v -m "$*"
 }
