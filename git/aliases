@@ -1,7 +1,7 @@
 alias gs='git status'
 alias gpu='git push'
 alias gpl='git pull'
-alias gl='git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
 alias gpr='git pull --rebase'
 alias gd='git diff'
 alias gco='git checkout'
