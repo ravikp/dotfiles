@@ -12,6 +12,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gbr='git branch -r'
 alias gcv='git cherry -v'
+alias grefs='git log --pretty=format:"refs for current branch are %C(yellow)%d%Creset" -1'
 
 alias gsr='git svn rebase'
 alias gsd='git svn dcommit'
