@@ -1,8 +1,9 @@
 alias gs='git status'
 alias gai='git add -i'
+alias gss='git submodule status'
 alias gpu='git push'
 alias gpl='git pull'
-alias gl='git log'
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
 alias gpr='git pull --rebase'
 alias gd='git diff'
 alias gco='git checkout'
@@ -13,6 +14,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gbr='git branch -r'
 alias gcv='git cherry -v'
+alias grefs='git log --pretty=format:"refs for current branch are %C(yellow)%d%Creset" -1'
 
 alias gsr='git svn rebase'
 alias gsd='git svn dcommit'
