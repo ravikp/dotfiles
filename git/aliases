@@ -1,4 +1,5 @@
 alias gs='git status'
+alias gss='git submodule status'
 alias gpu='git push'
 alias gpl='git pull'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
