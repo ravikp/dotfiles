@@ -1,8 +1,11 @@
 alias gs='git status'
 alias gai='git add -i'
 alias gss='git submodule status'
+alias gsu='git submodule update'
+alias gssync='git submodule sync'
 alias gpu='git push'
 alias gpl='git pull'
+alias gpr='git pull --rebase'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
 alias gpr='git pull --rebase'
 alias gd='git diff'
