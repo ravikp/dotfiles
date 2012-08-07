@@ -1,0 +1,2 @@
+alias mstart='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist'
+alias mstop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist'
