@@ -1,1 +1,2 @@
 alias sc='/c/Windows/system32/sc.exe'
+alias appcmd='/c/windows/system32/inetsrv/appcmd.exe'
