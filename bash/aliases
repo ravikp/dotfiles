@@ -9,6 +9,7 @@ alias cls='clear'
 alias vim='vim -N'
 alias vi='vim -N'
 alias e='exit'
+alias refreship='ipconfig //release && ipconfig //renew'
 
 function take {
 mkdir -p $1 
